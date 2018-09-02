@@ -4,10 +4,6 @@
 prefix: '&f&l[&a&lModReq&f&l] '
 confirm-msg: '&7Request sent » '
 
-#add a player name after this - will add this feature later
-#confirm-reply: '&7You have replied to '
-
-
 #command help
 unknownCMD: 'Request help from a moderator.'
 #command
