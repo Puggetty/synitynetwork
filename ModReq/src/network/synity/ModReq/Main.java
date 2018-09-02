@@ -5,10 +5,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import net.md_5.bungee.api.ChatColor;
-
-//import net.md_5.bungee.api.ChatColor;
 
 public class Main extends JavaPlugin {
 	
@@ -36,8 +33,8 @@ public class Main extends JavaPlugin {
         	for(Player p : Bukkit.getOnlinePlayers()) {
         		if(p.hasPermission("modreq.receive") && message.length() != 0) {
         			String prefix = getConfig().getString("prefix");
-        			String displayName = player.getDisplayName(); // its 1am help
-        			p.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix) + ChatColor.GRAY + displayName + ChatColor.GRAY + " » " + ChatColor.WHITE + message);
+        			String displayName = player.getDisplayName();
+        			p.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix) + ChatColor.GRAY + displayName + ChatColor.GRAY + " Â» " + ChatColor.WHITE + message);
         		}
         	}
         	
