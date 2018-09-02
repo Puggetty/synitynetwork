@@ -1,0 +1,8 @@
+main: network.synity.ModReq.Main
+name: ModReq
+version: 1.0
+author: Liam / Puggetty
+description: Same as helpop but seb wanted modreq so im wasting my time why do i have to do this
+commands:
+  modreq:
+    description: Requests help from a moderator.
