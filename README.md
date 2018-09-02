@@ -1,5 +1,5 @@
 # Synity Network
-Synity Network Development Page.
+Synity Network Development Page. This page is mainly for Puggetty's plugins.
 
 ## ModReq
 ModReq is a plugin that allows players to send messages to all online moderators/admins. This is one of the first plugins I have developed so it is very simple :).
