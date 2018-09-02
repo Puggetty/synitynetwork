@@ -11,4 +11,4 @@ modreq.receive - Allows a user to recieve a ModReq message
 I could add to this plugin by making it save all requests to a file and allowing an admin to read them at any time. Admins could set the state of a request to "Solved", "Working on", etc etc.
 
 ### Download
-If you really want to use the plugin you can download the jar from Modreq > target > ModReq.jar.
+I'm not going to officially release the plugin as it is very simple, if you want to use it then you can download the jar from Modreq > target > ModReq.jar.
