@@ -1,0 +1,9 @@
+main: com.synitynetwork.CraftNametag.Main
+name: CraftNameTag
+version: 1.0
+author: Liam / Puggetty
+description: Add the ability to craft nametags.
+commands:
+  ntrecipe:
+    description: Shows the recipe for a Nametag.
+    usage: /ntrecipe
