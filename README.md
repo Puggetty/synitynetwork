@@ -13,7 +13,7 @@ I could add to this plugin by making it save all requests to a file and allowing
 ### Download
 I'm not going to officially release the plugin as it is very simple, if you want to use it then you can download the jar from Modreq > target > ModReq.jar.
 
-## Craft NameTag
+## CraftNameTag
 CraftNametag is another simple plugin that really just does what is says on the tin. Players on the server requested it so I made it, it has nothing fancy just an extra crafting recipe.
 
 ### Improvements
