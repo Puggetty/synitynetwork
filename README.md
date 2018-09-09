@@ -22,4 +22,4 @@ Another thing I could do is allow the items to be changed in a config file.
 
 ### Download
 Again, not releasing this but if you want it you can find it in CraftNametag > target > CNT.jar.
-Of you could code it yourself, it's very easy.
+Or you could code it yourself, it's very easy.
