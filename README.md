@@ -18,6 +18,7 @@ CraftNametag is another simple plugin that really just does what is says on the 
 
 ### Improvements
 You can see in the source code that a lot has been commented out. I am playing with getting the crafting table GUI up with the recipe displayed. I can do it but people can take the items and then it crashes the server. I just need to find a way to fix this.
+It also uses a depreciated method, this needs to be changed.
 Another thing I could do is allow the items to be changed in a config file.
 
 ### Download
