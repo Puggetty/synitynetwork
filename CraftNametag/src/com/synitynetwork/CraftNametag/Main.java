@@ -1,18 +1,6 @@
 package com.synitynetwork.CraftNametag;
 
-import java.io.IOException;
-
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.event.inventory.InventoryDragEvent;
-import org.bukkit.event.inventory.InventoryInteractEvent;
-import org.bukkit.event.inventory.InventoryType;
-import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -30,7 +18,7 @@ public class Main extends JavaPlugin {
 		ItemStack nameTag = new ItemStack(Material.NAME_TAG);
 		
 		//recipe
-		//works now, had to add "Null" to NamespacedKey - still don't quite understand this.
+		
 		ShapedRecipe nameTagRecipe = new ShapedRecipe(null, nameTag);
 		nameTagRecipe.shape("$££", "£%&", "£&&");
 		
