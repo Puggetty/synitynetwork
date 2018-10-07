@@ -30,12 +30,12 @@ public class Main extends JavaPlugin {
 		ItemStack nameTag = new ItemStack(Material.NAME_TAG);
 		
 		//recipe
-		@SuppressWarnings("deprecation")
-		ShapedRecipe nameTagRecipe = new ShapedRecipe(nameTag);
-		nameTagRecipe.shape("$££", "£%&", "£&&");
+		//works now, had to add "Null" to NamespacedKey - still don't quite understand this.
+		ShapedRecipe nameTagRecipe = new ShapedRecipe(null, nameTag);
+		nameTagRecipe.shape("$Â£Â£", "Â£%&", "Â£&&");
 		
 		nameTagRecipe.setIngredient('$', Material.STRING);
-		nameTagRecipe.setIngredient('£', Material.IRON_INGOT);
+		nameTagRecipe.setIngredient('Â£', Material.IRON_INGOT);
 		nameTagRecipe.setIngredient('%', Material.PAPER);
 		nameTagRecipe.setIngredient('&', Material.DIAMOND);
 		
